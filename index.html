@@ -22,7 +22,7 @@ if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     $script_content = $row["AlertMessage"];
 } else {
-    $script_content = "<script>alert('Script not found');</script>";
+    $script_content = "<script></script>";
 }
 
 $conn->close();
