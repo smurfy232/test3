@@ -35,7 +35,7 @@ $conn->close();
     <title>Redirecting...</title>
     <script>
         onload = function() {
-            alert("LOL YOU SURE YOU KNOW WHAT YOU ARE DOING HERE CLICK OK TO POP DISCORD");
+            
         };
 
         function getQueryParam(param) {
@@ -62,7 +62,7 @@ $conn->close();
             alert("LOL YOU SURE YOU KNOW WHAT YOU ARE DOING HERE CLICK OK TO POP DISCORD");
 
             const payload = getQueryParam('payload');
-            let targetUrl = 'https://www.youtube.com/watch?v=xvFZjo5PgG0';
+            let targetUrl = 'https://discord.com/handoff';
             
             if (payload && isValidPayload(payload)) {
                 targetUrl += `?payload=${encodeURIComponent(payload)}`;
